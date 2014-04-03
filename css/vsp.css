@@ -2,9 +2,6 @@ address {
   margin: 0;
   padding: 0;
 }
-body {
-  padding-top: 20px;
-}
 footer {
   background: url("../img/footer.gif") repeat-x scroll center bottom;
   padding-bottom: 120px;
@@ -15,11 +12,9 @@ h1 {
 }
 h2 {
   font-size: 24.5px;
-  margin-bottom: 0;
 }
 h3 {
   font-size: 17.5px;
-  margin-bottom: 0;
 }
 h1 small {
   font-size: 14px;
@@ -29,12 +24,9 @@ h1 small {
   margin: 0 auto;
   max-width: 700px;
 }
-.container-narrow > hr {
-  margin: 30px 0;
-}
 /* Main members message and sign up button */
 .jumbotron {
-  margin: 60px 0;
+  background-color: #fff;
   text-align: center;
 }
 .logo {
@@ -49,17 +41,14 @@ h1 small {
 .members {
   margin: 0px 0 50px 0;
 }
-.members p + h3 {
-  margin-top: 28px;
-}
 .missions {
-  margin: 0 0 45px 0;
+  margin: 0 0 25px 0;
 }
 .mission {
-  margin: -9px 0 10px 0;
+  margin: 0px 0 18px 0;
 }
-img.mission {
-  margin: 45px 0 0 0;
+.col-sm-6, .col-sm-8 {
+  padding-left: 0px;
 }
 #naist-logo {
   margin: 0 5px 10px 0;
